@@ -15,6 +15,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/dhavalgojiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhavalgojiya" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/mysteriousindiayt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mysteriousindiayt" height="30" width="40" /></a>
 <a href="https://kaggle.com/dhavalgojiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dhavalgojiya" height="30" width="40" /></a>
 <a href="https://fb.com/dhavalgojiya100" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dhavalgojiya100" height="30" width="40" /></a>
 <a href="https://instagram.com/dhaval_gojiya_ahir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dhaval_gojiya_ahir" height="30" width="40" /></a>
