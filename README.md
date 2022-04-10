@@ -53,8 +53,8 @@
 </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Java" target="_blank">
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
+  <a href="https://en.wikipedia.org/wiki/R_(programming_language)" target="_blank">
+         <img src="https://cran.r-project.org/logo.html" alt="java" width="40" height="40"/> 
 </a>
 
 ### Python Frameworks
