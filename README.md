@@ -2,11 +2,11 @@
 <h3 align="center">Data Scientist & Backend Dev</h3>
 
 
-- 🌱 I’m currently learning **Deep Learning**
+- 🌱 I’m currently learning **Django**
 
 - 👨‍💻 All of my projects are available at [dhavalgojiya.com](dhavalgojiya.com)
 
-- 💬 Ask me about **Machine Learning & Data Science**
+- 💬 Ask me about **Machine Learning & Backend Development**
 
 - 📫 How to reach me **dhavalgojiya10@gmail.com**
 
