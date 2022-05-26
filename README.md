@@ -60,7 +60,7 @@
 ### Frameworks
 
   ![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+  ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js&logoColor=green)
   
 ### Other
 
