@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dhaval Gojiya</h1>
-<h3 align="center">Data Scientist & Backend Dev</h3>
+<h3 align="center">Full Stack Developer</h3>
 
 
 - 🌱 I’m currently learning **Django**
