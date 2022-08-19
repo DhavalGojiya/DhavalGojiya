@@ -10,13 +10,12 @@
 
 - 📫 How to reach me **dhavalgojiya10@gmail.com**
 
-- ⚡ Fun fact **If you want to learn something,You have to Raise your Curiosity.**
+- ⚡ Fun fact **If you want to learn something, You have to Raise your Curiosity.**
 
 <h3 align="left">Connect with me:</h3>
 
 <p align="left">
 <a href="https://linkedin.com/in/dhavalgojiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhavalgojiya" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/mysteriousindiayt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mysteriousindiayt" height="30" width="40" /></a>
 <a href="https://kaggle.com/dhavalgojiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dhavalgojiya" height="30" width="40" /></a>
 <a href="https://fb.com/dhavalgojiya100" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dhavalgojiya100" height="30" width="40" /></a>
 <a href="https://instagram.com/dhaval_gojiya_ahir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dhaval_gojiya_ahir" height="30" width="40" /></a>
@@ -34,8 +33,6 @@
 
   ![powerbi](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
   ![tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-  ![plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
-  ![pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
   ![mysql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
   ![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
   
