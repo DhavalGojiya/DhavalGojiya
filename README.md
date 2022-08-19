@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Dhaval Gojiya</h1>
-<h3 align="center">Full Stack Developer</h3>
+<h3 align="center">Data Engineer & Backend Dev</h3>
 
 
-- 🌱 I’m currently learning **Django**
+- 🌱 I’m currently learning **Django & Hadoop**
 
 - 👨‍💻 All of my projects are available at [dhavalgojiya.com](dhavalgojiya.com)
 
-- 💬 Ask me about **Machine Learning & Backend Development**
+- 💬 Ask me about **Data Engineering & Backend Development**
 
 - 📫 How to reach me **dhavalgojiya10@gmail.com**
 
@@ -53,16 +53,17 @@
 </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/>
 
 
 ### Frameworks
 
-  ![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>
   <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
   
 ### Other
 
-  ![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer" />
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhavalgojiya&show_icons=true&locale=en&layout=compact" alt="dhavalgojiya" /></p>
 
