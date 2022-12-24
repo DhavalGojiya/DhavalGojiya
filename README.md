@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Dhaval Gojiya</h1>
-<h3 align="center">Data Engineer & Backend Dev</h3>
+<h3 align="center">Backend Engineer</h3>
 
 
-- 🌱 I’m currently learning **Django & Hadoop**
+- 🌱 I’m currently learning **Django & SQL**
 
 - 👨‍💻 All of my projects are available at [dhavalgojiya.com](dhavalgojiya.com)
 
