@@ -6,7 +6,7 @@
 
 - 👨‍💻 All of my projects are available at [dhavalgojiya.com](dhavalgojiya.com)
 
-- 💬 Ask me about **Data Engineering & Backend Development**
+- 💬 Ask me about **Micro Services & Backend Development**
 
 - 📫 How to reach me **dhavalgojiya10@gmail.com**
 
