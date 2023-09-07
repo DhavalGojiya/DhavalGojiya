@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning **Django & SQL**
 
-- 👨‍💻 All of my projects are available at [dhavalgojiya.com](dhavalgojiya.com)
+- 👨‍💻 All of my projects are available at [dhavalgojiya.in](dhavalgojiya.in)
 
 - 💬 Ask me about **Micro Services & Backend Development**
 
