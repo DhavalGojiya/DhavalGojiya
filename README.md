@@ -1,8 +1,9 @@
 <h1 align="center">Hi, I'm Dhaval Gojiya 👋</h1>
 
 <p align="center">
-  <b>Backend engineer and open source contributor</b><br/>
-  Python, Django and the search stack around them · Dwarka, Gujarat, India
+  <b>Software Engineer and Open Source Contributor</b><br/>
+  Python, Django and the search stack around them<br/>
+  📍 Dwarka, Gujarat, India
 </p>
 
 <p align="center">
@@ -79,7 +80,7 @@ Also contributed to [apache/solr](https://github.com/apache/solr), [apache/solr-
 
 ### ✍️ Writing
 
-I write about backend engineering on Hashnode, at [Tech Insights by Dhaval](https://dhavalgojiya.hashnode.dev).
+I write about software engineering on Hashnode, at [Tech Insights by Dhaval](https://dhavalgojiya.hashnode.dev).
 
 <!-- articles:start -->
 
