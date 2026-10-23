@@ -1,0 +1,71 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "30 12 * * *" # 6:00 PM IST
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-profile.yml
+      - .github/scripts/update_readme.py
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    name: Refresh README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # push the refreshed README.md
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Update counts, merged PRs and articles
+        run: python3 .github/scripts/update_readme.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit README.md if it changed
+        run: |
+          git diff --quiet README.md && exit 0
+          # Official GitHub Actions bot identity; 41898282 is its GitHub account ID.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh README counts, merged PRs and articles" README.md
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  snake:
+    name: Draw contribution snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # push the SVGs to the output branch
+    steps:
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # The output branch holds only the latest SVGs, so each run replaces it with one commit.
+      - name: Publish SVGs to the output branch
+        working-directory: dist
+        run: |
+          git init -b output
+          # Official GitHub Actions bot identity; 41898282 is its GitHub account ID.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Draw contribution snake"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
