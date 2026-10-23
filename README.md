@@ -119,7 +119,7 @@ I write about software engineering on Hashnode, at [Tech Insights by Dhaval](htt
 **Search engines**
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=elasticsearch" width="48" alt="Elasticsearch" title="Elasticsearch" />
+  <img src="assets/elasticsearch.svg" width="48" alt="Elasticsearch" title="Elasticsearch" />
   <img src="assets/solr.svg" width="48" alt="Apache Solr" title="Apache Solr" />
   <img src="assets/meilisearch.svg" width="48" alt="Meilisearch" title="Meilisearch" />
 </p>
