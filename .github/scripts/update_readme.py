@@ -32,20 +32,30 @@ def fetch(url: str, headers: dict[str, str] | None = None) -> bytes:
         return response.read()
 
 
-def merged_prs() -> list[dict]:
-    """Merged PRs authored in repositories the user does not own, newest merge first."""
+def search(query: str, page: int = 1, per_page: int = 100) -> dict:
+    """One page of GitHub issue and pull request search results."""
     headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
     if token := os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = f"Bearer {token}"
+    params = urllib.parse.urlencode({"q": query, "per_page": per_page, "page": page})
+    data = json.loads(fetch(f"https://api.github.com/search/issues?{params}", headers))
+    # A timed-out search returns a partial page, which would shrink every count.
+    if data["incomplete_results"]:
+        raise SystemExit("GitHub search returned incomplete results")
+    return data
+
+
+def search_total(query: str) -> int:
+    return search(query, per_page=1)["total_count"]
+
+
+def merged_prs() -> list[dict]:
+    """Merged PRs authored in repositories the user does not own, newest merge first."""
     query = f"author:{USER} type:pr is:merged -user:{USER}"
     items: list[dict] = []
     page = 1
     while True:
-        params = urllib.parse.urlencode({"q": query, "per_page": 100, "page": page})
-        data = json.loads(fetch(f"https://api.github.com/search/issues?{params}", headers))
-        # A timed-out search returns a partial page, which would shrink every count.
-        if data["incomplete_results"]:
-            raise SystemExit("GitHub search returned incomplete results")
+        data = search(query, page)
         items += data["items"]
         if not data["items"] or len(items) >= data["total_count"]:
             break
@@ -132,9 +142,17 @@ def main() -> None:
     if not posts:
         raise SystemExit(f"{FEED_URL} has no articles")
     per_repo = Counter(repo_name(pr) for pr in prs)
+    counts = {
+        "total": len(prs),
+        "projects": len(per_repo),
+        # Reviews of other people's PRs, including PRs sent to the user's own repositories.
+        "reviews": search_total(f"reviewed-by:{USER} -author:{USER} type:pr"),
+        "issues": search_total(f"author:{USER} type:issue -user:{USER}"),
+        **per_repo,
+    }
 
     text = README.read_text()
-    text = replace_counts(text, {"total": len(prs), "projects": len(per_repo), **per_repo})
+    text = replace_counts(text, counts)
     text = replace_block(text, "recent-prs", "\n".join(pr_line(pr) for pr in prs[:LATEST_PRS]))
     text = replace_block(text, "articles", article_cards(posts))
     README.write_text(text)
