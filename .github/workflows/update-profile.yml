@@ -2,7 +2,7 @@ name: Update profile
 
 on:
   schedule:
-    - cron: "30 3 * * 1" # Monday 9:00 AM IST
+    - cron: "33 22 * * 0" # Monday 4:03 AM IST
   push:
     branches: [main]
     paths:
