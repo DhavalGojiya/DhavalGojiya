@@ -48,7 +48,7 @@
 
 ### 🤝 Open source
 
-**<!-- count:total -->103<!-- /count --> merged PRs** across <!-- count:projects -->21<!-- /count --> upstream projects · **[<!-- count:reviews -->53<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
+**<!-- count:total -->103<!-- /count --> merged PRs** across <!-- count:projects -->21<!-- /count --> upstream projects · **[<!-- count:reviews -->57<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
 
 Some highlights:
 
