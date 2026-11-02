@@ -48,17 +48,17 @@
 
 ### 🤝 Open source
 
-**<!-- count:total -->103<!-- /count --> merged PRs** across <!-- count:projects -->21<!-- /count --> upstream projects · **[<!-- count:reviews -->57<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
+**<!-- count:total -->108<!-- /count --> merged PRs** across <!-- count:projects -->21<!-- /count --> upstream projects · **[<!-- count:reviews -->57<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
 
 Some highlights:
 
 | Project | Merged PRs | Highlights |
 | --- | :---: | --- |
-| [django-haystack/pysolr](https://github.com/django-haystack/pysolr) | <!-- count:django-haystack/pysolr -->39<!-- /count --> | [Solr 9](https://github.com/django-haystack/pysolr/pull/530) and [Solr 10](https://github.com/django-haystack/pysolr/pull/553) support · [move to uv](https://github.com/django-haystack/pysolr/pull/525) · [Hatchling build backend](https://github.com/django-haystack/pysolr/pull/528) · [pytest test suite](https://github.com/django-haystack/pysolr/pull/546) · [Python 3.15 and 3.15t](https://github.com/django-haystack/pysolr/pull/596) |
-| [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) | <!-- count:django-commons/django-tasks-scheduler -->15<!-- /count --> | [Python 3.14 annotation fix](https://github.com/django-commons/django-tasks-scheduler/pull/309) · [faster, more secure CI](https://github.com/django-commons/django-tasks-scheduler/pull/355) · [uv.lock freshness check](https://github.com/django-commons/django-tasks-scheduler/pull/300) |
+| [django-haystack/pysolr](https://github.com/django-haystack/pysolr) | <!-- count:django-haystack/pysolr -->40<!-- /count --> | [Solr 9](https://github.com/django-haystack/pysolr/pull/530) and [Solr 10](https://github.com/django-haystack/pysolr/pull/553) support · [move to uv](https://github.com/django-haystack/pysolr/pull/525) · [Hatchling build backend](https://github.com/django-haystack/pysolr/pull/528) · [pytest test suite](https://github.com/django-haystack/pysolr/pull/546) · [Python 3.15 and 3.15t](https://github.com/django-haystack/pysolr/pull/596) |
+| [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) | <!-- count:django-commons/django-tasks-scheduler -->17<!-- /count --> | [Python 3.14 annotation fix](https://github.com/django-commons/django-tasks-scheduler/pull/309) · [faster, more secure CI](https://github.com/django-commons/django-tasks-scheduler/pull/355) · [uv.lock freshness check](https://github.com/django-commons/django-tasks-scheduler/pull/300) |
 | [django-commons/drf-haystack](https://github.com/django-commons/drf-haystack) | <!-- count:django-commons/drf-haystack -->11<!-- /count --> | [CI test pipeline with Elasticsearch 7](https://github.com/django-commons/drf-haystack/pull/291) · [uv_build build backend](https://github.com/django-commons/drf-haystack/pull/300) · [drop EOL DRF versions](https://github.com/django-commons/drf-haystack/pull/310) |
 | [meilisearch/meilisearch-python](https://github.com/meilisearch/meilisearch-python) | <!-- count:meilisearch/meilisearch-python -->9<!-- /count --> | [move to uv](https://github.com/meilisearch/meilisearch-python/pull/1231) · [Ruff for linting and formatting](https://github.com/meilisearch/meilisearch-python/pull/1246) · [zizmor CI security fixes](https://github.com/meilisearch/meilisearch-python/pull/1242) |
-| [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) | <!-- count:django-haystack/django-haystack -->6<!-- /count --> | [Django 6.1 support](https://github.com/django-haystack/django-haystack/pull/2071) · [Docker-based Solr and Elasticsearch tests](https://github.com/django-haystack/django-haystack/pull/2073) · [Solr core reload URL fix](https://github.com/django-haystack/django-haystack/pull/1968) |
+| [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) | <!-- count:django-haystack/django-haystack -->8<!-- /count --> | [Django 6.1 support](https://github.com/django-haystack/django-haystack/pull/2071) · [Docker-based Solr and Elasticsearch tests](https://github.com/django-haystack/django-haystack/pull/2073) · [Solr core reload URL fix](https://github.com/django-haystack/django-haystack/pull/1968) |
 
 Also contributed to [apache/solr](https://github.com/apache/solr), [apache/solr-docker](https://github.com/apache/solr-docker), [microsoft/typeagent-py](https://github.com/microsoft/typeagent-py), [rq/rq](https://github.com/rq/rq), [rq/django-rq](https://github.com/rq/django-rq), [cunla/fakeredis-py](https://github.com/cunla/fakeredis-py) and [django-commons/django-prometheus](https://github.com/django-commons/django-prometheus).
 
@@ -66,11 +66,11 @@ Also contributed to [apache/solr](https://github.com/apache/solr), [apache/solr-
 
 <!-- recent-prs:start -->
 
-- [fix(ci): Solr 9.11 removed in-process Tika, route extraction to tika service](https://github.com/django-haystack/pysolr/pull/612) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Oct 12, 2026
-- [Replace solrconfig.xml copies with config overlay in solr docker setup](https://github.com/django-haystack/pysolr/pull/601) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Sep 21, 2026
-- [Drop stale transfer notice, bump package status to beta](https://github.com/django-commons/drf-haystack/pull/363) in [django-commons/drf-haystack](https://github.com/django-commons/drf-haystack) · Sep 18, 2026
-- [build(deps): add httpx2 alongside requests](https://github.com/django-haystack/pysolr/pull/599) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Sep 17, 2026
-- [refactor(test): assert commitWithin request param instead of commit timing](https://github.com/django-haystack/pysolr/pull/591) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Sep 17, 2026
+- [feat: Replace pre-commit with prek in dev dependencies and docs](https://github.com/django-haystack/pysolr/pull/607) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Oct 28, 2026
+- [fix #2086: don't crash workers on unused database aliases](https://github.com/django-haystack/django-haystack/pull/2087) in [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) · Oct 27, 2026
+- [build: replace setuptools with hatchling](https://github.com/django-haystack/django-haystack/pull/2079) in [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) · Oct 27, 2026
+- [chore: support Django 6.1 and require Django 5.2 or later](https://github.com/django-commons/django-tasks-scheduler/pull/434) in [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) · Oct 26, 2026
+- [chore(ci): bump GitHub Actions, uv and broker images to latest](https://github.com/django-commons/django-tasks-scheduler/pull/433) in [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) · Oct 26, 2026
 
 <!-- recent-prs:end -->
 
