@@ -48,7 +48,7 @@
 
 ### 🤝 Open source
 
-**<!-- count:total -->108<!-- /count --> merged PRs** across <!-- count:projects -->21<!-- /count --> upstream projects · **[<!-- count:reviews -->57<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
+**<!-- count:total -->109<!-- /count --> merged PRs** across <!-- count:projects -->22<!-- /count --> upstream projects · **[<!-- count:reviews -->58<!-- /count --> code reviews](https://github.com/search?q=reviewed-by%3ADhavalGojiya+-author%3ADhavalGojiya+is%3Apr&type=pullrequests)** of other contributors' PRs · **[<!-- count:issues -->40<!-- /count --> issues](https://github.com/search?q=author%3ADhavalGojiya+is%3Aissue+-user%3ADhavalGojiya&type=issues)** reported upstream
 
 Some highlights:
 
@@ -66,11 +66,11 @@ Also contributed to [apache/solr](https://github.com/apache/solr), [apache/solr-
 
 <!-- recent-prs:start -->
 
+- [chore(lint): remove default ruff lint configuration from pyproject.toml](https://github.com/davidlatwe/montydb/pull/127) in [davidlatwe/montydb](https://github.com/davidlatwe/montydb) · Nov 8, 2026
 - [feat: Replace pre-commit with prek in dev dependencies and docs](https://github.com/django-haystack/pysolr/pull/607) in [django-haystack/pysolr](https://github.com/django-haystack/pysolr) · Oct 28, 2026
 - [fix #2086: don't crash workers on unused database aliases](https://github.com/django-haystack/django-haystack/pull/2087) in [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) · Oct 27, 2026
 - [build: replace setuptools with hatchling](https://github.com/django-haystack/django-haystack/pull/2079) in [django-haystack/django-haystack](https://github.com/django-haystack/django-haystack) · Oct 27, 2026
 - [chore: support Django 6.1 and require Django 5.2 or later](https://github.com/django-commons/django-tasks-scheduler/pull/434) in [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) · Oct 26, 2026
-- [chore(ci): bump GitHub Actions, uv and broker images to latest](https://github.com/django-commons/django-tasks-scheduler/pull/433) in [django-commons/django-tasks-scheduler](https://github.com/django-commons/django-tasks-scheduler) · Oct 26, 2026
 
 <!-- recent-prs:end -->
 
